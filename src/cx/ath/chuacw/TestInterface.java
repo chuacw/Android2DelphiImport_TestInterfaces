@@ -32,4 +32,34 @@ public class TestInterface implements Hockey {
 		System.out.println(Announcement);
 	}
 
+	@Override
+	public boolean IsInjured(String playerName) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public int getNumPlayers() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Object[] getPlayerAttribute(String playerName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setStrength(String playerName, int newStreng) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setInjury(String playerName, float injuryPercent) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
